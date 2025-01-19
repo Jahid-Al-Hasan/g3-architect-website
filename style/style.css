@@ -6,6 +6,11 @@
   font-style: normal;
 }
 /* shared style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .display-flex {
   display: flex;
 }
@@ -104,6 +109,61 @@ main > section {
 }
 #quick-list {
   font-weight: 500;
+}
+
+/* feature section related styles */
+.features {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 146px;
+}
+.features-container {
+  /* max-width: 586px; */
+  /* margin-right: 54px; */
+}
+.features-image img {
+  /* max-width: 708px; */
+}
+.experience-button {
+  margin-left: -92px;
+  margin-top: -123px;
+}
+.ten-year {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+}
+.experience {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+#feature-section-title {
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+  margin: 0;
+}
+#feature-section-description {
+  margin-top: 24px;
+  font: normal 1rem;
+  line-height: 26px;
+}
+
+.feature-card {
+  padding: 30px 42px 30px 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+
+.feature-card .feature-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 0;
+}
+.feature-card .feature-description {
+  font: normal 1rem;
+  line-height: 26px;
 }
 
 /* facts related style */
